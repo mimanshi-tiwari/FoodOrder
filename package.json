@@ -1,0 +1,27 @@
+{
+  "name": "foodorder",
+  "version": "1.0.0",
+  "description": "food ordering app",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mimanshi-tiwari/FoodOrder.git"
+  },
+  "author": "Mimanshi Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mimanshi-tiwari/FoodOrder/issues"
+  },
+  "homepage": "https://github.com/mimanshi-tiwari/FoodOrder#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
