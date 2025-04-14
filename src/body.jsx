@@ -4,7 +4,6 @@ import { restrauntData } from "./shared/constants";
 
 export const Body = () => {
     const [restrauntList, setRestrauntList] = useState(restrauntData ?? []);
-    console.log(<ResCard />);
      return (
         <div className="body-container">
             <div className="control-container">
