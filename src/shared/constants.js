@@ -71,6 +71,6 @@ export const restrauntData = [
     }
 ];
 
-export const LOGO_URL = "https://png.pngtree.com/template/20191024/ourmid/pngtree-food-delivery-logo-design-fast-delivery-service-sign-image_323015.jpg"
+export const LOGO_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg2SV6fLAfd7GJLcMGCV-OT_WO6EowbkA4Rw&s"
 
 export const BASE_RES_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"
