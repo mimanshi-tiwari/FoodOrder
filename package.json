@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/mimanshi-tiwari/FoodOrder#readme",
   "dependencies": {
+    "@tailwindcss/postcss": "^4.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.11.2"
+    "react-router-dom": "^6.11.2",
+    "tailwindcss": "^4.1.4"
   },
   "devDependencies": {
     "parcel": "^2.14.4"
