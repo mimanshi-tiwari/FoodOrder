@@ -29,23 +29,23 @@ export const Body = () => {
   return !restaurantList.length ? (
     <ShimmerCards skeletonNumber={50} height="400px" width="260px" />
   ) : (
-    <div className="body-container dark:bg-black">
-      <div className="control-container">
+    <div className="flex flex-col gap-8 m-6">
+      <div className="flex flex-row gap-4 w-9/12">
         <input
           type="text"
           placeholder="Search..."
-          className="search-input"
+          className="border border-[#463e2d] rounded h-8 p-2 text-xs"
           data-testid="search-input"
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
         />
         <div className="filter">
           <button
-            className="top-res-btn"
+            className="rounded h-8 p-2 flex items-center text-white bg-[#463e2d] font-normal text-xs"
             data-testid="top-res-btn"
             onClick={() => {
               const filteredList = restaurantList?.filter(
-                (res) => res.info && res.info.avgRating > 4.5
+                (res) => res.info && res.info.avgRating > 4
               );
               setFilteredRestrauntList(filteredList);
             }}
@@ -54,7 +54,7 @@ export const Body = () => {
           </button>
         </div>
       </div>
-      <div className="card-container">
+      <div className="w-full flex flex-wrap gap-6">
         {filteredRestrauntList.map((res, index) =>  res?.info?.aggregatedDiscountInfoV3?.header ? (
            <Link
            to={`/restaurant/${res?.info?.id}`}

@@ -19,33 +19,33 @@ export const Header = () => {
   });
 
   return (
-    <div className="header-container">
-      <div className="logo-container">
+    <div className="flex flex-row justify-between items-center h-28 p-6 bg-[#463e2d]">
+      <div className="bg-transparent w-[100px] h-[100px]">
         <img src={LOGO_URL} alt="logo" className="logo" />
       </div>
-      <div className="nav-bar-container">
-        <ul className="nav-bar flex items-center">
+      <div>
+        <ul className="flex items-center gap-8 text-white text-sm ">
           <li>
-            <label className="switch text-white items-center">
+            <label className="items-center hover:text-[#f8ad3a]">
               <input
                 type="checkbox"
                 checked={lightTheme}
                 onChange={handleTheme}
               />
               <span className="slider round"></span>
-              <p className="text-sm font-semibold text-[#f8ad3a]">Mode</p>
+              <p className="text-sm text-white">Mode</p>
             </label>
           </li>
-          <li>
+          <li className="hover:text-[#f8ad3a]">
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className="hover:text-[#f8ad3a]">
             <Link to="/about">About</Link>
           </li>
-          <li>
+          <li className="hover:text-[#f8ad3a]">
             <Link to="contact-us">Contact Us</Link>
           </li>
-          <li>
+          <li className="hover:text-[#f8ad3a]">
             <Link to="/cart">Cart ({cartItemsLength})</Link>
           </li>
         </ul>

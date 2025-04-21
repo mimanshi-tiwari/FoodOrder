@@ -30,16 +30,16 @@ const RestaurantMenu = () => {
     );
 
   return (
-    <div className="res-menu-container">
-      <div className="res-details-container">
-        <div className="res-card-logo-container">
-          <div className="text-2xl font-semibold mb-2">{name}</div>
-          <img src={imageUrl} data-testid="res-img"/>
+    <div className="p-6 flex flex-col gap-4">
+      <div className="flex gap-9 rounded bg-[#ece2d069] shadow">
+        <div className="res-card-logo-container p-8 flex flex-col gap-2">
+          <div className="text-2xl font-semibold mb-2 text-[#463e2d]">{name}</div>
+          <img src={imageUrl} data-testid="res-img" className="w-[250px] h-[250px] rounded shadow shadow-gray-400"/>
         </div>
-        <div className="res-card-deatils-section">
-          <p>{avgRating} ⭐</p>
-          <p>{cuisines?.join(", ")}</p>
-          <p>{costForTwoMessage}</p>
+        <div className="flex flex-col items-center gap-4 m-[84px] text-[#463e2d] text-base">
+          <p>⭐ {avgRating}</p>
+          <p className="text-sm flex gap-2"><span>🍜 </span> {cuisines?.join(", ")}</p>
+          <p className="font-semibold">{costForTwoMessage}</p>
         </div>
       </div>
       {cardSections?.map((item, index) => (

@@ -8,8 +8,8 @@ body {
 }
 a {
     text-decoration: none;
-    color: #463e2d;
 }
+/*
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -149,9 +149,9 @@ border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     /* justify-content: center; */
-    align-items: center;
-}
-.shimmer-card {
+    /* align-items: center; */
+/* } */
+/* .shimmer-card {
     height: 400px;
     margin: 10px;
     border-radius: 10px;
@@ -239,7 +239,7 @@ border-radius: 10px;
     background-color: #f8f9fa;
     border-radius: 10px;
     color: #463e2d;
-}
+} 
 
 .menu-item:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -304,12 +304,12 @@ border-radius: 10px;
     -ms-transform: translateX(26px);
     transform: translateX(26px);
   }
-  
+   */
   /* Rounded sliders */
-  .slider.round {
+  /* .slider.round {
     border-radius: 34px;
   }
   
   .slider.round:before {
     border-radius: 50%;
-  }
+  } */

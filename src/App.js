@@ -31,7 +31,7 @@ const AppLayout = () => {
       <ThemeContext.Provider
         value={{ lightTheme: currentTheme, setCurrentTheme }}
       >
-        <div data-theme={currentTheme ? "light" : "dark"} className="app">
+        <div data-theme={currentTheme ? "light" : "dark"} className="p-0 m-0 bg-amber-50">
           <Header />
           {isOnline ? (
             <Outlet />

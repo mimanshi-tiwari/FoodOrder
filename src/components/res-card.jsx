@@ -7,26 +7,26 @@ const ResCard = ({ resData }) => {
 
   if (!resData) return null;
   return (
-    <div className="res-card gap-4" data-testid="res-card">
-      <div className="res-card-logo-container">
-        <img src={imageUrl} alt="🍴 Restaurant" className="res-card-logo" />
+    <div className="flex flex-col gap-4 justify-self-start shadow-lg  shadow-gray-400 rounded-xl bg-[#ece2d069] hover:bg-[#e8dfd0ab] items-center p-4 w-80" data-testid="res-card">
+      <div className="">
+        <img src={imageUrl} alt="🍴 Restaurant" className="w-full rounded " />
       </div>
-      <div className="flex flex-col justify-start">
-        <div className="res-details">
-          <div className="res-card-name">
-            <h4>{name}</h4>
+      <div className="flex flex-col gap-2 justify-start w-full text-[#463e2d] text-base">
+        {/* <div className="text-base"> */}
+          <div className="flex flex-row justify-between ">
+            <p className="font-mediumt  w-9/12">{name}</p>
             <p
               className={`${
-                avgRating > 4 ? "good-rating" : "bad-rating"
-              } rating`}
+                avgRating > 4 ? "bg-green-200" : "bg-red-200"
+              } border border-green-600 rounded px-2 py-1 w-3/12 h-fit w-fit`}
             >
               ⭐ {avgRating}
             </p>
           </div>
 
-          <p className="cost">{costForTwo}</p>
-          <p className="cuisines">🍜 {cuisines?.join(", ")}</p>
-        </div>
+          <p className="font-semibold">{costForTwo}</p>
+          <p className="text-sm flex gap-2"><span>🍜 </span> {cuisines?.join(", ")}</p>
+        {/* </div> */}
       </div>
     </div>
   );
