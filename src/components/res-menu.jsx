@@ -34,7 +34,7 @@ const RestaurantMenu = () => {
       <div className="res-details-container">
         <div className="res-card-logo-container">
           <div className="text-2xl font-semibold mb-2">{name}</div>
-          <img src={imageUrl} />
+          <img src={imageUrl} data-testid="res-img"/>
         </div>
         <div className="res-card-deatils-section">
           <p>{avgRating} ⭐</p>

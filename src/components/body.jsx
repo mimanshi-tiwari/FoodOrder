@@ -35,12 +35,14 @@ export const Body = () => {
           type="text"
           placeholder="Search..."
           className="search-input"
+          data-testid="search-input"
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
         />
         <div className="filter">
           <button
             className="top-res-btn"
+            data-testid="top-res-btn"
             onClick={() => {
               const filteredList = restaurantList?.filter(
                 (res) => res.info && res.info.avgRating > 4.5
@@ -61,7 +63,7 @@ export const Body = () => {
          >
             <ResCardWithDiscountLabel
               key={res?.info?.id || index}
-              resData={res}
+              resData={res?.info}
             />
           </Link>
         ) : (
@@ -70,7 +72,7 @@ export const Body = () => {
             key={res?.info?.id || index}
             className="link"
           >
-            <ResCard key={res?.info?.id || index} resData={res} />
+            <ResCard key={res?.info?.id || index} resData={res?.info} />
           </Link>
         ))}
       </div>

@@ -21,6 +21,7 @@ const Cart = () => {
         <div
           key={item?.id + item?.name + index}
           className="m-8 flex gap-8 w-full"
+           data-testid="cart-food-items"
         >
           <div>
             <img

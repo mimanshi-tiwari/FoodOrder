@@ -8,7 +8,7 @@ const MenuCard = ({ resInfo }) => {
   const cartItems = useSelector((store) => store.cart.items);
   const isItemInCart = (resInfo) => cartItems.filter((item) => item.id === resInfo?.id);
   return (
-    <div key={resInfo?.id} className="menu-item">
+    <div key={resInfo?.id} className="menu-item" data-testid="menu-item">
       <div className="flex gap-4 flex-col w-9/12">
         <p className="text-lg font-semibold">{resInfo?.name}</p>
         <p className="text-sm">{resInfo?.description}</p>
@@ -27,6 +27,7 @@ const MenuCard = ({ resInfo }) => {
           <AddRemoveBtn menuItem={isItemInCart(resInfo)[0]} className=""/>
         ) : (
           <button
+          data-testid="add-to-cart"
           onClick={(event) => {
             event.stopPropagation();
             dispatch(addItem(resInfo));

@@ -1,0 +1,76 @@
+{
+    "id": "750396",
+    "name": "Daily Kitchen - Homely Meals",
+    "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/19/741d7d41-1341-4358-b6e0-cc22b8e82f9a_750396.JPG",
+    "locality": "Lakshmi Road",
+    "areaName": "Central Bangalore",
+    "costForTwo": "₹250 for two",
+    "cuisines": [
+        "Home Food",
+        "Indian",
+        "North Indian",
+        "Thalis"
+    ],
+    "avgRating": 4.5,
+    "parentId": "444382",
+    "avgRatingString": "4.5",
+    "totalRatingsString": "638",
+    "sla": {
+        "deliveryTime": 15,
+        "lastMileTravel": 2.6,
+        "serviceability": "SERVICEABLE",
+        "slaString": "10-20 mins",
+        "lastMileTravelString": "2.6 km",
+        "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+        "nextCloseTime": "2025-04-22 02:00:00",
+        "opened": true
+    },
+    "badges": {
+        "imageBadges": [
+            {
+                "imageId": "Ratnesh_Badges/Rx_Awards_2025/Newcomers.png",
+                "description": "Delivery!"
+            }
+        ]
+    },
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+        "entityBadges": {
+            "imageBased": {
+                "badgeObject": [
+                    {
+                        "attributes": {
+                            "description": "Delivery!",
+                            "imageId": "Ratnesh_Badges/Rx_Awards_2025/Newcomers.png"
+                        }
+                    }
+                ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+        }
+    },
+    "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹100"
+    },
+    "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+        }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {},
+    "externalRatings": {
+        "aggregatedRating": {
+            "rating": "--"
+        }
+    },
+    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+}

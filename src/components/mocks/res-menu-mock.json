@@ -1,0 +1,1330 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                        "text": "Kwality Walls Ice Cream and More",
+                        "headerStyling": {
+                            "textColor": "text_Highest_Emphasis",
+                            "textVariant": "header_H3_Black"
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+                        "tabs": [
+                            {
+                                "id": "Order Online",
+                                "title": "Order Online"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "847260",
+                            "name": "Kwality Walls Ice Cream and More",
+                            "city": "Bangalore",
+                            "slugs": {
+                                "restaurant": "kwality-walls-frozen-dessert-and-ice-cream-shop-central-bangalore-central-bangalore-7",
+                                "city": "bangalore"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/20/f571f8d2-2d3c-484b-9046-2a770ae4820c_847260.JPG",
+                            "locality": "Bharati Nagar",
+                            "areaName": "Central Bangalore",
+                            "costForTwo": "20000",
+                            "costForTwoMessage": "₹200 for two",
+                            "cuisines": [
+                                "Ice Cream",
+                                "Desserts"
+                            ],
+                            "avgRating": 4.7,
+                            "veg": true,
+                            "feeDetails": {
+                                "restaurantId": "847260",
+                                "fees": [
+                                    {}
+                                ]
+                            },
+                            "parentId": "582",
+                            "avgRatingString": "4.7",
+                            "totalRatingsString": "162 ratings",
+                            "sla": {
+                                "restaurantId": "847260",
+                                "deliveryTime": 49,
+                                "minDeliveryTime": 45,
+                                "maxDeliveryTime": 50,
+                                "lastMileTravel": 3.5,
+                                "serviceability": "SERVICEABLE",
+                                "stressFactor": 1,
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                "zoneId": 68,
+                                "slaString": "45-50 MINS",
+                                "lastMileTravelString": "3.5 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2025-04-22 00:00:00",
+                                "visibility": true,
+                                "opened": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "header": "Flat ₹150 off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "Flat ₹150 off on orders above ₹399",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off | Use  XTRAPARTY",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Flat ₹150 off on orders above ₹399 | Use code FLAT150",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off | Use code  XTRAPARTY",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "kwality-walls-frozen-dessert-and-ice-cream-shop-central-bangalore-central-bangalore-7",
+                            "multiOutlet": true,
+                            "isOpen": true,
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "Cash N Carry: 3/2 1st street armstrong road cross shivajinagara Bangalore (HUL-I43A238P491)"
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "Ice Cream,Desserts"
+                                }
+                            ],
+                            "logo": "Brand logo/KwWaICr",
+                            "totalRatings": 162,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "Flat ₹150 off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "Flat ₹150 off on orders above ₹399",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off | Use  XTRAPARTY",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Flat ₹150 off on orders above ₹399 | Use code FLAT150",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off | Use code  XTRAPARTY",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "couponDetailsCta": "View coupon details"
+                            },
+                            "type": "F",
+                            "nudgeBanners": [
+                                {
+                                    "minValue": 279,
+                                    "maxValue": 399,
+                                    "priority": 1,
+                                    "couponCode": "FLAT150",
+                                    "discountInfo": {
+                                        "discountType": "Flat",
+                                        "value": 150
+                                    },
+                                    "lockedMessage": "Add items worth ₹<amount> to save ₹150 | Code FLAT150",
+                                    "unlockedMessage": "FLAT150 Coupon Unlocked! Use it to save ₹150",
+                                    "logoCtx": {}
+                                },
+                                {
+                                    "minValue": 1400,
+                                    "maxValue": 2000,
+                                    "priority": 2,
+                                    "couponCode": "XTRAPARTY",
+                                    "discountInfo": {
+                                        "discountType": "Percentage",
+                                        "value": 20
+                                    },
+                                    "lockedMessage": "Add items worth ₹<amount> to unlock flat 20% off | Code XTRAPARTY",
+                                    "unlockedMessage": "XTRAPARTY Coupon Unlocked! Use it to save flat 20% off",
+                                    "logoCtx": {}
+                                }
+                            ],
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/847260"
+                            },
+                            "ratingSlab": "RATING_SLAB_5",
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "hasBestsellerItems": true,
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "12.98455,77.610929",
+                            "backgroundImageOverlayInfo": {},
+                            "featuredSectionInfo": {}
+                        },
+                        "analytics": {}
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+                        "sectionId": "POP_UP_CROUTON_MENU"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "columns": 4,
+                            "horizontalScrollEnabled": true,
+                            "itemSpacing": 12,
+                            "lineSpacing": 10,
+                            "widgetPadding": {},
+                            "containerStyle": {
+                                "containerPadding": {
+                                    "left": 10,
+                                    "right": 10,
+                                    "bottom": 16
+                                }
+                            },
+                            "scrollBar": {}
+                        },
+                        "id": "offerCollectionWidget_UX4",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                "offers": [
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹150 OFF",
+                                            "offerTag": "FLAT DEAL",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "aa574e71-f2ee-4893-adf6-6226c34dfff9"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE FLAT150",
+                                            "description": "ABOVE ₹399",
+                                            "offerType": "offers",
+                                            "restId": "847260",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE FLAT150"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT 20% OFF",
+                                            "offerTag": "FLAT DEAL",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "83e42bbc-a666-47ee-a940-dc425f73609e"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE XTRAPARTY",
+                                            "description": "ABOVE ₹2000",
+                                            "offerType": "offers",
+                                            "restId": "847260",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE XTRAPARTY"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹25 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/31/7e6e642d-f83e-4e02-b302-e850c00c3cc7_BHIMMenuVisibilityLogo1.png",
+                                            "offerIds": [
+                                                "f7a5e99c-1612-4469-9d19-d55c39393acb"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "NO CODE REQUIRED",
+                                            "description": "ABOVE ₹299",
+                                            "offerType": "offers",
+                                            "restId": "847260",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/31/7e6e642d-f83e-4e02-b302-e850c00c3cc7_BHIMMenuVisibilityLogo1.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "NO CODE REQUIRED"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "20% OFF UPTO ₹150",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/4/3/7f30885f-0cbb-4a38-8b4f-741efa6cbe84_AMEXMenuLogo.png",
+                                            "offerIds": [
+                                                "bb2ff398-29d2-4033-9281-f4e128f62653"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE AMEXCORP",
+                                            "description": "ABOVE ₹699",
+                                            "offerType": "offers",
+                                            "restId": "847260",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/4/3/7f30885f-0cbb-4a38-8b4f-741efa6cbe84_AMEXMenuLogo.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE AMEXCORP"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    }
+                                ],
+                                "habitMilestoneInfo": {
+                                    "callout": {}
+                                },
+                                "loyaltyDiscoverPresentationInfo": {
+                                    "logoCtx": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                            "isPureVeg": true,
+                                            "badges": {},
+                                            "vegOnlyDetails": {
+                                                "imageId": "AutoVegOnly_qkjowj",
+                                                "title": "Showing only vegetarian options.",
+                                                "description": "Tap on the VEG ONLY button to turn off the setting"
+                                            },
+                                            "topRatedFilter": {
+                                                "attributes": {
+                                                    "displayText": "Ratings 4.0+"
+                                                }
+                                            },
+                                            "kidsCategoryFilter": {
+                                                "attributes": {
+                                                    "displayText": "Kids Favourites",
+                                                    "tooltip": {
+                                                        "enabled": true,
+                                                        "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                    }
+                                                }
+                                            },
+                                            "vegFilter": {
+                                                "attributes": {
+                                                    "displayText": "VEG"
+                                                }
+                                            },
+                                            "nonvegFilter": {
+                                                "attributes": {
+                                                    "displayText": "NONVEG"
+                                                }
+                                            }
+                                        },
+                                        "relevance": {
+                                            "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                            "sectionId": "MENU_FILTER_TOGGLE"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                                            "title": "Magnum Ice Cream",
+                                            "categories": [
+                                                {
+                                                    "title": "New Magnum Ice Cream",
+                                                    "itemCards": [
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "169580053",
+                                                                    "name": "Magnum Pistachio Ice Cream 61 gms",
+                                                                    "category": "Magnum Ice Cream",
+                                                                    "description": "Rich cracking belgian chocolate studded with roasted pistachio pieces surrounding velvety smooth pistachio ice cream.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/37ef4c50-a389-456c-a4cf-ce3ca22da747_43bae533-9352-4ea7-a60d-f4b1fca77354.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 8000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "169580054",
+                                                                    "name": "Magnum Classic Ice Cream 61 gms",
+                                                                    "category": "Magnum Ice Cream",
+                                                                    "description": "The perfect balance of cracking Belgian chocolate and velvety smooth vanilla ice cream.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/a24ca7f3-0170-415f-9eb6-18b319838d7b_c8a36649-7dc7-4a59-9399-306bb00e28b0.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 7000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        }
+                                                    ],
+                                                    "subtitleSuffix": {},
+                                                    "categoryId": "61153313"
+                                                },
+                                                {
+                                                    "title": "Magnum Ice Cream",
+                                                    "itemCards": [
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "169580057",
+                                                                    "name": "Magnum Brownie Ice Cream 61 gms",
+                                                                    "category": "Magnum Ice Cream",
+                                                                    "description": "Made with Belgian chocolate. Brownie-flavoured ice cream is covered in thick, cracking Belgian chocolate and crunchy cashew pieces.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/989e2b08-fd0c-4797-9a67-70459dca4873_99261263-5257-4e7f-b301-e8aea7ef5103.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 8000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "169580058",
+                                                                    "name": "Magnum Chocolate Truffle Ice Cream 61 gms",
+                                                                    "category": "Magnum Ice Cream",
+                                                                    "description": "Smooth chocolate truffle sauce, swirled through creamy chocolate ice cream, and wrapped in thick cracking belgian chocolate",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/3003c23c-b117-45c8-b8aa-fb2a33cede4f_45f2ec7d-41ca-41c9-9e2e-0a01113c1b00.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 7000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        }
+                                                    ],
+                                                    "subtitleSuffix": {},
+                                                    "categoryId": "61153314"
+                                                }
+                                            ],
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/37ef4c50-a389-456c-a4cf-ce3ca22da747_43bae533-9352-4ea7-a60d-f4b1fca77354.png",
+                                            "categoryId": "60329825"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                                            "title": "Family Tubs",
+                                            "categories": [
+                                                {
+                                                    "title": "Family Ice Cream Tubs",
+                                                    "itemCards": [
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "169580059",
+                                                                    "name": "The Dairy Factory Slow Churned Chocolate Ice Cream TUB 700 ML",
+                                                                    "category": "Family Tubs",
+                                                                    "description": "Experience the ultimate chocolate indulgence with Kwality Walls Slow Churned Chocolate Ice Cream.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/06359dfd-869c-4eaf-aeaf-9cf80caa5c18_6c62d468-31d7-4c8a-8303-c7eba6dd5ff7.jpg",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 22000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "169580060",
+                                                                    "name": "The Dairy Factory  Slow Churned Butterscotch IceCream TUB 700 ML",
+                                                                    "category": "Family Tubs",
+                                                                    "description": "Indulge in the irresistible combination of creamy butterscotch ice cream and crunchy cashew crackle.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/2b1efa50-f27c-4f08-aeac-53294e3cb5fa_6a6e5b22-d110-4bef-993a-15afd38c35f4.jpg",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 18000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "169580061",
+                                                                    "name": "The Dairy Factory  Slow Churned Vanilla Ice Cream TUB 700 ML",
+                                                                    "category": "Family Tubs",
+                                                                    "description": "Savor the authentic taste of vanilla in every spoonful of Kwality Walls Slow Churned Vanilla Ice Cream.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/2dee6ef4-9f28-4d54-bb49-b26b66ddf662_1cfbe31f-8fef-4819-bea3-95f083d8d449.jpg",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 16000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "158232016",
+                                                                    "name": "Hazelnut Chocolate Ice Cream 500ml Family Tub",
+                                                                    "category": "Family Tubs",
+                                                                    "description": "Ice Cream with Hazelnuts Decadent Chocolate Ice Cream full of crunchy and roasted hazelnuts and chocolate. Kcal/Serving: 165",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/6/002f4ec0-98aa-4de0-aca7-ac101a94af1a_1dc7cfc2-ef29-4da9-8884-e1c970cf506c.jpg",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 32500,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        }
+                                                    ],
+                                                    "subtitleSuffix": {},
+                                                    "categoryId": "61153315"
+                                                },
+                                                {
+                                                    "title": "Family Tubs",
+                                                    "itemCards": [
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "158231891",
+                                                                    "name": "Choco Brownie Fudge 700ml Family Tub",
+                                                                    "category": "Family Tubs",
+                                                                    "description": "Rich chocolate tub full of chunky brownie pieces and chocolate fudge. A tub that will make a dark chocolate lover Rock N Roll. Kcal/Serving: 150",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/98b0d109-1518-4180-8d7a-fd0d5763c1d1_dfa994b6-96a8-4a12-ab2d-d369d8d7112e.jpg_compressed",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 32900,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "158231880",
+                                                                    "name": "Cadbury Crackle 700ml Family Tub",
+                                                                    "category": "Family Tubs",
+                                                                    "description": "A Cadbury lover's delight! Cadbury Crackle chocolate balls in creamy chocolate tub with swirls of rich chocolate sauce. A perfect partner for celebrations! Kcal/Serving: 155",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/3b2f63f3-4a2a-4635-a2e0-4b5cbfbdd32f_e0aeeff8-36d5-4aab-abf2-46ce4afbe803.jpg",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 37900,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "158232090",
+                                                                    "name": "Oreo & Cream 700ml Family Tub",
+                                                                    "category": "Family Tubs",
+                                                                    "description": "The OG Oreo Tub!Crunchy Oreos chunks in rich creamy vanilla. Kcal/Serving: 126",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/71e8fefc-ada1-44fa-8894-73969bdb138b_f0a59e8c-b5b4-49f6-9356-5018f1e54ed5.jpg_compressed",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 32500,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        }
+                                                    ],
+                                                    "subtitleSuffix": {},
+                                                    "categoryId": "61153316"
+                                                }
+                                            ],
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/06359dfd-869c-4eaf-aeaf-9cf80caa5c18_6c62d468-31d7-4c8a-8303-c7eba6dd5ff7.jpg",
+                                            "categoryId": "60329818"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                                            "title": "Party Packs",
+                                            "categories": [
+                                                {
+                                                    "title": "Dairy Factory Slow Churned Ice Cream  (B1G1)",
+                                                    "itemCards": [
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "169580063",
+                                                                    "name": "The  Dairy Factory Vanilla Ice cream PP (700+700ML )",
+                                                                    "category": "Party Packs",
+                                                                    "description": "Savor the authentic taste of vanilla in every spoonful of Kwality Walls Slow Churned Vanilla Ice Cream.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/78f96388-4a24-497d-97cd-5d81de30f8ca_bc14c87d-29da-4362-9048-ff9d4b9b6c4c.jpg",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 24000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "169580064",
+                                                                    "name": "The Dairy Factory Butterscotch Ice Cream PP (700+700ML )",
+                                                                    "category": "Party Packs",
+                                                                    "description": "Indulge in the irresistible combination of creamy butterscotch ice cream and crunchy cashew crackle.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/45432cd2-e617-433c-b4d9-1bf22166db23_c30f3f92-2bd2-4e97-99d9-054b360e4c81.jpg",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 28000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "169580065",
+                                                                    "name": "The  Dairy Factory Chocolate Ice cream PP (700+700ML)",
+                                                                    "category": "Party Packs",
+                                                                    "description": "Experience the ultimate chocolate indulgence with Kwality Walls Slow Churned Chocolate Ice Cream.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/4a33fb33-f093-4249-aa5a-b53965842760_d04b569e-272c-488f-b53d-66c842186654.jpg",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 32000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        }
+                                                    ],
+                                                    "subtitleSuffix": {},
+                                                    "categoryId": "61153318"
+                                                },
+                                                {
+                                                    "title": "Family Party Packs",
+                                                    "itemCards": [
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "140429551",
+                                                                    "name": "Kesar Pista Party Pack [700ml X 2]",
+                                                                    "category": "Party Packs",
+                                                                    "description": "Royal delight in every bite!A rich and creamy scoop loaded with rich flavourful kesar and pieces of pista.  Kcal/Serving: 117",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/12/20/96901d9c-aa70-483b-8afa-d49bd071be51_86c62e92-8d3b-4a1c-934f-fb8ca559412d.jpg_compressed",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 37000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "135461801",
+                                                                    "name": "Oreo Party Pack [700ml x 2pcs]",
+                                                                    "category": "Party Packs",
+                                                                    "description": "The Original Oreo Party Pack!Crunchy Oreo cookie chunks in rich creamy vanilla.  Kcal/Serving: 252",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/6e821e07-3327-4918-ae36-8b950b2c3e19_e85aafe5-85bf-473f-9615-d2d2d08d5793.jpg",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 44000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "140429518",
+                                                                    "name": "American Nuts Party Pack 700ml",
+                                                                    "category": "Party Packs",
+                                                                    "description": "Dive into a world full of nuts and raisins, Crunchy creamy and delicious! Kcal/Serving130",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/ea010d47-6cfe-4d7e-aaf6-e7fe2fbd2415_ae6450cd-cdb6-4da8-ae13-02bad236a8a9.jpeg",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 17000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        }
+                                                    ],
+                                                    "subtitleSuffix": {},
+                                                    "categoryId": "61153319"
+                                                }
+                                            ],
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/78f96388-4a24-497d-97cd-5d81de30f8ca_bc14c87d-29da-4362-9048-ff9d4b9b6c4c.jpg",
+                                            "categoryId": "60329822"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Cornetto",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "169580072",
+                                                            "name": "Cornetto Strawberry Vanilla (105ml x 3 pcs)",
+                                                            "category": "Cornetto",
+                                                            "description": "Delight in the perfect duo of strawberry and vanilla ice cream swirled in a crispy cone, topped with delicious strawberry sauce and crunchy white chocolate chips.Creamy, crunchy, and irresistibly delicious, this treat is pure bliss in every bite. Perfect for any moment of indulgence!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/12/2da84708-e7ad-48b2-aaab-caa34e4e8b03_06bb9da9-6b61-4c2d-8eaa-ef3c6a69c864.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 10500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "135461791",
+                                                            "name": "Cornetto Choco Vanilla [105ml x 4pcs]",
+                                                            "category": "Cornetto",
+                                                            "description": "A duo of rich and creamy vanilla topped with chocolate sauce and Choco chips in a crunchy waffle cone. Kcal/Serving: 177",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/7db6b930-2b50-4a49-b10c-d0573b38602a_13b1ce75-a7b3-4591-a6d1-4e069911a70f.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 12000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.8",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "158231928",
+                                                            "name": "Cornetto Choco Brownie 110ml",
+                                                            "category": "Cornetto",
+                                                            "description": "Disc as soft as a kiss!Crunchy waffle cone filled with creamy chocolate and brownie pieces with a soft chocolate disc and almond sprinkles on top. Kcal/Serving: 249",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/26/e01abe03-28bd-45e8-b433-9e3b1e39e86a_114e9f15-5809-4ba2-ba42-be7b069de196.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 6000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "5.0",
+                                                                    "ratingCount": "10 ratings",
+                                                                    "ratingCountV2": "10"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2025/3/12/2da84708-e7ad-48b2-aaab-caa34e4e8b03_06bb9da9-6b61-4c2d-8eaa-ef3c6a69c864.jpg",
+                                            "categoryId": "60329823"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                                            "title": "Classic Childhood Favorites",
+                                            "categories": [
+                                                {
+                                                    "title": "Cassatta",
+                                                    "itemCards": [
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "135461793",
+                                                                    "name": "Cassatta [125ml x 2pcs]",
+                                                                    "category": "Classic Childhood Favorites",
+                                                                    "description": "Creamy rainbow trio between crunchy cashew nuts, tutti frutti and soft cake. Kcal/Serving: 157",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/b79e0907-d173-4986-ac4a-39e8ea6c50b4_bcefad36-864f-4549-bb51-4d63a2925504.jpg",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 14000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {
+                                                                        "text": "Bestseller",
+                                                                        "textColor": "#ffffff",
+                                                                        "topBackgroundColor": "#d53d4c",
+                                                                        "bottomBackgroundColor": "#b02331"
+                                                                    },
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "isBestseller": true,
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.7",
+                                                                            "ratingCount": "10 ratings",
+                                                                            "ratingCountV2": "10"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        }
+                                                    ],
+                                                    "subtitleSuffix": {},
+                                                    "categoryId": "61153325"
+                                                }
+                                            ],
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/b79e0907-d173-4986-ac4a-39e8ea6c50b4_bcefad36-864f-4549-bb51-4d63a2925504.jpg",
+                                            "categoryId": "61153321"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                                            "title": "Cups",
+                                            "categories": [
+                                                {
+                                                    "title": "Cups",
+                                                    "itemCards": [
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "135461790",
+                                                                    "name": "Trixy blueberry cheesecake Sundae 110ml",
+                                                                    "category": "Cups",
+                                                                    "description": "Parlour like fun in a cup!3 delicious layers - blueberry sauce, creamy cheesecake dessert  and crunchy cinnamon cookies. Kcal/Serving: 340",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/18e21a13-7c04-4091-8a19-bbc8b49bba14_fee25597-0398-4eba-8dd0-8313ebc6bcd3.jpg_compressed",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 7000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.6",
+                                                                            "ratingCount": "8 ratings",
+                                                                            "ratingCountV2": "8"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "135461774",
+                                                                    "name": "Trixy Cookie Sundae 110ml",
+                                                                    "category": "Cups",
+                                                                    "description": "(110ml) Parlour like fun in a cup. 3 delicious layers - silky chocolate disc, delicious cookies & cream and crunchy choco cookies. Kcal/Serving: 235",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/27cb8197-330c-4fae-b1f2-acf2ad9f27f0_408006d0-5247-44ce-9fcb-4876b003a6ef.jpg_compressed",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 7000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.7",
+                                                                            "ratingCount": "4 ratings",
+                                                                            "ratingCountV2": "4"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "135461794",
+                                                                    "name": "Oreo and Cream Cup 100ml",
+                                                                    "category": "Cups",
+                                                                    "description": "Crunchy oreo cookie chunks with rich and creamy vanilla in a cup.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/26/ddcb7bc6-adb2-49a1-8962-cd114b3601cc_7cb87098-08b5-43e2-861e-decdae050c40.jpg_compressed",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 6000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.3",
+                                                                            "ratingCount": "3 ratings",
+                                                                            "ratingCountV2": "3"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        }
+                                                    ],
+                                                    "subtitleSuffix": {},
+                                                    "categoryId": "61153327"
+                                                }
+                                            ],
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/18e21a13-7c04-4091-8a19-bbc8b49bba14_fee25597-0398-4eba-8dd0-8313ebc6bcd3.jpg_compressed",
+                                            "categoryId": "61153322"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                                            "title": "Kwality Wall's Sticks",
+                                            "categories": [
+                                                {
+                                                    "title": "Mango Stick",
+                                                    "itemCards": [
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "167724231",
+                                                                    "name": "Aamras [70ml x 2pcs]",
+                                                                    "category": "Kwality Wall's Sticks",
+                                                                    "description": "Aamras All Year Round!Delicious mango stick made with pulp of real alphonso mangoes. Kcal/Serving: 195",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/a5b09157-1c46-42fc-8aca-dc69419ec08a_3f651433-98e8-41a7-a9d2-daff60d250c7.jpg_compressed",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 8000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG"
+                                                                    },
+                                                                    "ribbon": {
+                                                                        "text": "Bestseller",
+                                                                        "textColor": "#ffffff",
+                                                                        "topBackgroundColor": "#d53d4c",
+                                                                        "bottomBackgroundColor": "#b02331"
+                                                                    },
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "isBestseller": true,
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    }
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        }
+                                                    ],
+                                                    "subtitleSuffix": {},
+                                                    "categoryId": "61153329"
+                                                }
+                                            ],
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2025/4/15/a5b09157-1c46-42fc-8aca-dc69419ec08a_3f651433-98e8-41a7-a9d2-daff60d250c7.jpg_compressed",
+                                            "categoryId": "61153323"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 21224189000204"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "Kwality Walls Ice Cream and More",
+                                            "area": "Central Bangalore",
+                                            "completeAddress": "Cash N Carry: 3/2 1st street armstrong road cross shivajinagara Bangalore (HUL-I43A238P491)"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    },
+    "tid": "b899870f-e3fe-4611-bd06-c181ea0c5557",
+    "sid": "k5p1db8d-f761-4411-895e-0d9d06f90298",
+    "deviceId": "d89049c8-f47d-5e6b-d339-b4560469f852",
+    "csrfToken": "DkC4lzDmuiSy-IR3GqL72BDEeOUPVKMDB1h0A6lc"
+}

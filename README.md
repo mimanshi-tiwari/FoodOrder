@@ -37,3 +37,7 @@
 - Configure Parcel config file to disable default babel transpilation
 - Jest configuration - npx jest --init
 - Install jsdom library
+- Install @babel/preset-react - to make jsx work in text cases
+- Include @babel/preset-react inside my babel config
+- Install @testing-library/jest-dom
+- Filename - any filen inside folder __test__, fileName.spec.js, fileName.test.js
