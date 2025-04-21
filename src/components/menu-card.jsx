@@ -1,7 +1,7 @@
-import { BASE_RES_URL } from "./shared/constants";
+import { BASE_RES_URL } from "../shared/constants";
 import { useDispatch, useSelector } from "react-redux";
-import  { addItem } from './slice/cartSlice';
-import AddRemoveBtn from "./shared/add-remove-btn";
+import  { addItem } from '../slice/cartSlice';
+import AddRemoveBtn from "../shared/add-remove-btn";
 
 const MenuCard = ({ resInfo }) => {
   const dispatch = useDispatch();

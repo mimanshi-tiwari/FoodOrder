@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { BASE_RES_URL } from "./shared/constants";
+import { BASE_RES_URL } from "../shared/constants";
 import { useParams } from "react-router-dom";
 import ShimmerCards from "./shimmer-cards";
-import useRestaurantMenu from "./custom-hooks/api-hooks/useRestaurantMenu";
+import useRestaurantMenu from "../custom-hooks/api-hooks/useRestaurantMenu";
 import ResCategories from "./res-categories";
 
 const RestaurantMenu = () => {

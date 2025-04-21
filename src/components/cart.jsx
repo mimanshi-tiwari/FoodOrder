@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
-import { BASE_RES_URL } from "./shared/constants";
-import AddRemoveBtn from "./shared/add-remove-btn";
+import { BASE_RES_URL } from "../shared/constants";
+import AddRemoveBtn from "../shared/add-remove-btn";
 import { Link } from "react-router-dom";
 
 const Cart = () => {

@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import { LOGO_URL } from "./shared/constants";
+import { LOGO_URL } from "../shared/constants";
 import { Link } from "react-router-dom";
-import ThemeContext from "./context/themeContext";
+import ThemeContext from "../context/themeContext";
 import { useSelector } from "react-redux";
 
 export const Header = () => {

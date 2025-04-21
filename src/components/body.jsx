@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import ResCard, { withDiscountLabel } from "./res-card";
 import ShimmerCards from "./shimmer-cards";
 import { Link } from "react-router-dom";
-import useRestaurantList from "./custom-hooks/api-hooks/useRestaurantList";
+import useRestaurantList from "../custom-hooks/api-hooks/useRestaurantList";
 
 //* This is a higher order component (HOC) that adds a promoted label to the ResCard component. It takes the ResCard component as an argument and returns a new component that renders the ResCard with the promoted label. */
 const ResCardWithDiscountLabel = withDiscountLabel(ResCard);

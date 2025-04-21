@@ -1,4 +1,4 @@
-import { BASE_RES_URL } from "./shared/constants";
+import { BASE_RES_URL } from "../shared/constants";
 
 const ResCard = ({ resData }) => {
   const { name, cuisines, cloudinaryImageId, avgRating, costForTwo } =

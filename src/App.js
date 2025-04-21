@@ -1,18 +1,18 @@
 import React, { lazy, Suspense, useContext, useState } from "react";
 import ReactDOM from "react-dom/client";
-import { Body } from "./body";
-import { Header } from "./header";
-import Error from "./error";
+import { Body } from "./components/body";
+import { Header } from "./components/header";
+import Error from "./components/error";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import About from "./about";
-import ContactUs from "./contact-us";
-import Cart from "./cart";
+import About from "./components/about";
+import ContactUs from "./components/contact-us";
+import Cart from "./components/cart";
 import useOnlineStatus from "./custom-hooks/useOnlineSatus";
 import ThemeContext from "./context/themeContext";
 import { Provider } from "react-redux";
 import appStore from "./store/appStore";
 
-const RestaurantMenu = lazy(() => import("./res-menu"));
+const RestaurantMenu = lazy(() => import("./components/res-menu"));
 
 //* Chunking the code
 //* Lazy loading the component
