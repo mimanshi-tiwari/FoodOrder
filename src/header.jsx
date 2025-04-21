@@ -2,13 +2,21 @@ import { useContext } from "react";
 import { LOGO_URL } from "./shared/constants";
 import { Link } from "react-router-dom";
 import ThemeContext from "./context/themeContext";
+import { useSelector } from "react-redux";
 
 export const Header = () => {
   const { lightTheme, setCurrentTheme } = useContext(ThemeContext);
+  //* Subscribing to store using selector
+  const cartItems = useSelector((store) => store.cart.items);
 
   const handleTheme = (e) => {
     setCurrentTheme(e.target.checked);
   };
+
+  let cartItemsLength = 0;
+  cartItems.map((item) => {
+    cartItemsLength += item?.quantity;
+  });
 
   return (
     <div className="header-container">
@@ -38,7 +46,7 @@ export const Header = () => {
             <Link to="contact-us">Contact Us</Link>
           </li>
           <li>
-            <Link to="/cart">Cart</Link>
+            <Link to="/cart">Cart ({cartItemsLength})</Link>
           </li>
         </ul>
       </div>

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { BASE_RES_URL } from "./shared/constants";
 import { useParams } from "react-router-dom";
 import ShimmerCards from "./shimmer-cards";
@@ -8,7 +8,7 @@ import ResCategories from "./res-categories";
 const RestaurantMenu = () => {
   const { resId } = useParams();
   const resInfo = useRestaurantMenu(resId);
-  const [showCategory, setShowCategory] = useState(false);
+  const [showCategory, setShowCategory] = useState(0);
 
   if (!resInfo)
     return (

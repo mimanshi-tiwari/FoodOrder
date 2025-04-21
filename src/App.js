@@ -9,6 +9,8 @@ import ContactUs from "./contact-us";
 import Cart from "./cart";
 import useOnlineStatus from "./custom-hooks/useOnlineSatus";
 import ThemeContext from "./context/themeContext";
+import { Provider } from "react-redux";
+import appStore from "./store/appStore";
 
 const RestaurantMenu = lazy(() => import("./res-menu"));
 
@@ -24,18 +26,23 @@ const AppLayout = () => {
   const { lightTheme } = useContext(ThemeContext);
   const [currentTheme, setCurrentTheme] = useState(lightTheme);
   return (
-    <ThemeContext.Provider value={{ lightTheme: currentTheme, setCurrentTheme }}>
-    <div data-theme={currentTheme ? 'light' : 'dark'} className="app">
-      <Header />
-      {isOnline ? (
-        <Outlet />
-      ) : (
-        <div>
-          Looks like you are offline! Please check you internect connection.
+    //* Creates bridge and provide store to our app
+    <Provider store={appStore}>
+      <ThemeContext.Provider
+        value={{ lightTheme: currentTheme, setCurrentTheme }}
+      >
+        <div data-theme={currentTheme ? "light" : "dark"} className="app">
+          <Header />
+          {isOnline ? (
+            <Outlet />
+          ) : (
+            <div>
+              Looks like you are offline! Please check you internect connection.
+            </div>
+          )}
         </div>
-      )}
-    </div>
-  </ThemeContext.Provider>
+      </ThemeContext.Provider>
+    </Provider>
   );
 };
 //* routing configuration
