@@ -9,8 +9,8 @@ export const Header = () => {
   //* Subscribing to store using selector
   const cartItems = useSelector((store) => store.cart.items);
 
-  const handleTheme = (e) => {
-    setCurrentTheme(e.target.checked);
+  const handleTheme = () => {
+    setCurrentTheme(!lightTheme);
   };
 
   let cartItemsLength = 0;
@@ -19,22 +19,14 @@ export const Header = () => {
   });
 
   return (
-    <div className="flex flex-row justify-between items-center h-28 p-6 bg-[#463e2d]">
+    <div className="flex flex-row justify-between items-center h-28 p-6 bg-[#463e2d] dark:bg-gray-900">
       <div className="bg-transparent w-[100px] h-[100px]">
-        <img src={LOGO_URL} alt="logo" className="logo" />
+        <img src={LOGO_URL} alt="logo" className="h-full" />
       </div>
       <div>
         <ul className="flex items-center gap-8 text-white text-sm ">
           <li>
-            <label className="items-center hover:text-[#f8ad3a]">
-              <input
-                type="checkbox"
-                checked={lightTheme}
-                onChange={handleTheme}
-              />
-              <span className="slider round"></span>
-              <p className="text-sm text-white">Mode</p>
-            </label>
+            <button className='bg-[#f8ad3a] px-2 py-1 rounded dark:bg-gray-950 cursor-pointer' onClick={handleTheme}>{lightTheme? 'Dark': 'Light'}</button>
           </li>
           <li className="hover:text-[#f8ad3a]">
             <Link to="/">Home</Link>

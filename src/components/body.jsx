@@ -34,14 +34,14 @@ export const Body = () => {
         <input
           type="text"
           placeholder="Search..."
-          className="border border-[#463e2d] rounded h-8 p-2 text-xs"
+          className="border border-[#463e2d] dark:border-gray-900 rounded h-8 p-2 text-xs"
           data-testid="search-input"
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
         />
         <div className="filter">
           <button
-            className="rounded h-8 p-2 flex items-center text-white bg-[#463e2d] font-normal text-xs"
+            className="rounded h-8 p-2 flex items-center text-white bg-[#463e2d] dark:bg-gray-900 font-normal text-xs"
             data-testid="top-res-btn"
             onClick={() => {
               const filteredList = restaurantList?.filter(

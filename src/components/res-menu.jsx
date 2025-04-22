@@ -31,9 +31,9 @@ const RestaurantMenu = () => {
 
   return (
     <div className="p-6 flex flex-col gap-4">
-      <div className="flex gap-9 rounded bg-[#ece2d069] shadow">
+      <div className="flex gap-9 rounded bg-[#ece2d069] dark:bg-gray-300 shadow">
         <div className="res-card-logo-container p-8 flex flex-col gap-2">
-          <div className="text-2xl font-semibold mb-2 text-[#463e2d]">{name}</div>
+          <div className="text-2xl font-semibold mb-2 text-[#463e2d] ">{name}</div>
           <img src={imageUrl} data-testid="res-img" className="w-[250px] h-[250px] rounded shadow shadow-gray-400"/>
         </div>
         <div className="flex flex-col items-center gap-4 m-[84px] text-[#463e2d] text-base">

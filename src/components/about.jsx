@@ -22,13 +22,23 @@ class About extends React.Component {
     const { avatar_url: avatarUrl , login } = this.state.userInfo;
     console.log("Render called");
     return (
-      <div>
+      <div className="flex flex-row h-[90vh] p-6 gap-8">
         <img
           src={avatarUrl}
           alt="Avatar"
-          style={{ width: "200px", height: "200px" }}
+          className="h-[150px] w-[150px]"
         />
-        <h2>{login}</h2>
+        <div className="flex flex-col gap-2 text-[#463e2d] w-4xl">
+        <p>Developer: <span>Mimanshi Tiwari</span></p>
+        <h2 className="font-medium">Github: <span>{login}</span></h2>
+        <p>APIs: <span>I have used swiggy's APIs to create <b>Home</b> and <b>Menu</b> page. For <b>About</b> github user APIs is being used.</span></p>
+        <p>React: <span>18.2.0</span></p>
+        <p>Store: <span>RTK (React Toolkit)</span></p>
+        <p>Bundler: <span>Parcel</span></p>
+        <p>Css: <span>Tailwind</span></p>
+        <p>Unit test: <span>100 % coverage</span></p>
+        <p>This app is just for self learnig ad documentation purpose.</p>
+        </div>
       </div>
     );
   }

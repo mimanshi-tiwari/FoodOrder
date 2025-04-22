@@ -21,7 +21,7 @@ const Cart = () => {
       </Link>
     </div>
   ) : (
-    <div className="flex h-[90vh] flex-col m-8 gap-8">
+    <div className="flex h-[90vh] flex-col m-8 gap-8 text-[#463e2d]">
       <div className="shadow-lg w-4xl p-4 rounded">
       {cartItems.map((item, index) => (
         <div

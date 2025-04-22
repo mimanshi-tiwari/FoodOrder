@@ -9,7 +9,7 @@ const MenuCard = ({ resInfo }) => {
   const cartItems = useSelector((store) => store.cart.items);
   const isItemInCart = (resInfo) => cartItems.filter((item) => item.id === resInfo?.id);
   return (
-    <div key={resInfo?.id} className="flex flex-row p-6 shadow-lg gap-2.5 rounded bg-amber-50 hover:bg-[#fffcf2a8] text-[#463e2d] " data-testid="menu-item">
+    <div key={resInfo?.id} className="flex flex-row p-6 shadow-lg gap-2.5 rounded bg-amber-50 hover:bg-[#fffcf2a8] text-[#463e2d] dark:bg-gray-500 dark:text-white dark:hover:bg-gray-400" data-testid="menu-item">
       <div className="flex gap-4 flex-col w-9/12">
         <p className="text-lg font-semibold">{resInfo?.name}</p>
         <p className="text-sm">{resInfo?.description}</p>
@@ -23,7 +23,7 @@ const MenuCard = ({ resInfo }) => {
           alt={resInfo?.name}
           className="rounded w-[150px] h-[150px]"
         />
-        <div className="px-2 py-1 bg-orange-400 text-[#463e2d] rounded-md absolute cursor-pointer -bottom-3 text-sm font-semibold">
+        <div className="px-2 py-1 bg-orange-400 text-[#463e2d] rounded-md absolute cursor-pointer -bottom-3 text-sm font-semibold dark:bg-gray-900 dark:text-white">
         {isItemInCart(resInfo).length ? (
           <AddRemoveBtn menuItem={isItemInCart(resInfo)[0]} className=""/>
         ) : (

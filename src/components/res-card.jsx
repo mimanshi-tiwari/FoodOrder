@@ -7,18 +7,18 @@ const ResCard = ({ resData }) => {
 
   if (!resData) return null;
   return (
-    <div className="flex flex-col gap-4 justify-self-start shadow-lg  shadow-gray-400 rounded-xl bg-[#ece2d069] hover:bg-[#e8dfd0ab] items-center p-4 w-80" data-testid="res-card">
+    <div className="flex flex-col gap-4 justify-self-start shadow-lg  shadow-gray-400 rounded-xl bg-[#ece2d069] dark:bg-gray-700 hover:bg-[#e8dfd0ab] dark:hover:bg-gray-600 items-center p-4 w-80" data-testid="res-card">
       <div className="">
         <img src={imageUrl} alt="🍴 Restaurant" className="w-full rounded " />
       </div>
-      <div className="flex flex-col gap-2 justify-start w-full text-[#463e2d] text-base">
+      <div className="flex flex-col gap-2 justify-start w-full text-[#463e2d] dark:text-white text-base">
         {/* <div className="text-base"> */}
           <div className="flex flex-row justify-between ">
-            <p className="font-mediumt  w-9/12">{name}</p>
+            <p className="font-medium dark:font-normal w-9/12">{name}</p>
             <p
               className={`${
-                avgRating > 4 ? "bg-green-200" : "bg-red-200"
-              } border border-green-600 rounded px-2 py-1 w-3/12 h-fit w-fit`}
+                avgRating > 4 ? "bg-green-200 dark:bg-green-700" : "bg-red-200 dark:bg-red-500"
+              } border border-green-600 rounded px-2 py-1  h-fit w-fit`}
             >
               ⭐ {avgRating}
             </p>
