@@ -37,7 +37,7 @@ class About extends React.Component {
         <p>Bundler: <span>Parcel</span></p>
         <p>Css: <span>Tailwind</span></p>
         <p>Unit test: <span>100 % coverage</span></p>
-        <p>This app is just for self learnig ad documentation purpose.</p>
+        <p>This app is just for self learnig ad documentation purpose.<br/> This app is created from scratch without using CRA.</p>
         </div>
       </div>
     );
