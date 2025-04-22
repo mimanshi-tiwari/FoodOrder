@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 const Cart = () => {
   const cartItems = useSelector((store) => store.cart.items);
-  console.log('cartItems', cartItems)
   let amount = 0
    cartItems.map((item) => {
     amount += ((item.price || item.defaultPrice) * (item.quantity || 1))

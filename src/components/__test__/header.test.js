@@ -1,11 +1,11 @@
-import { render, screen } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import { Provider } from "react-redux";
 import appStore from "../../store/appStore";
 import { BrowserRouter } from "react-router-dom";
 import { Header } from "../header";
 
-test("Should theme input to render in header component", () => {
+test("Should theme button to render in header component", () => {
   render(
     <BrowserRouter>
       <Provider store={appStore}>
@@ -14,8 +14,8 @@ test("Should theme input to render in header component", () => {
     </BrowserRouter>
   );
 
-  const themeInput = screen.getByRole("checkbox");
-  expect(themeInput).toBeInTheDocument();
+  const themeButton = screen.getByRole("button");
+  expect(themeButton).toBeInTheDocument();
 });
 
 test("Should Home to render in header component", () => {

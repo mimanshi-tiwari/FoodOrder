@@ -16,7 +16,6 @@ const useOnlineStatus = () => {
         window.addEventListener("offline", handleOffline);
 
         return () => {
-            console.log("Cleaning up event listeners");
             window.removeEventListener("online", handleOnline);
             window.removeEventListener("offline", handleOffline);
         };
