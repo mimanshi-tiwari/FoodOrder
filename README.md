@@ -1,4 +1,4 @@
-# Food ordering app [[URL](https://sparkly-gaufre-22707d.netlify.app)]
+# Food ordering app [[URL](https://foodorderbymimo.netlify.app/)]
 
 ## Enable CORS extension before accessing app, as I am using Swiggy's apis to render restraunts and food items.
  
