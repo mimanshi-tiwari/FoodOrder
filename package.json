@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --experimental-scope-hoisting false",
     "watch-test": "jest --watch"
   },
   "repository": {
@@ -36,6 +36,6 @@
     "babel-jest": "^29.7.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "parcel": "^2.14.4"
+    "parcel": "^2.9.3"
   }
 }
