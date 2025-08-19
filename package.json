@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
-    "build": "parcel build index.html --experimental-scope-hoisting false",
+    "build": "parcel build index.html",
     "watch-test": "jest --watch"
   },
   "repository": {
